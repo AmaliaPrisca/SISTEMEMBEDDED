@@ -1,36 +1,84 @@
-# JOBSHEET 1 - PROTOKOL KOMUNIKASI DAN SENSOR
-## Tujuan
-1) Mahasiswa dapat memahami dan mengoperasikan GPIO pada ESP32.
-2) Mahasiswa dapat memahami dan melakukan pengolahan data untuk 
-input/output analog dan digital.
-3) Mahasiswa dapat melakukan optimalisasi pembacaan sensor analog 
-menggunakan metode regresi linear.
+# A. GPIO (General Purpose Input-Output)
+
+## 1. GPIO | LED Blink
+
+### a. Rangkaian dan Flowchart
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![Screenshot 2023-11-28 125730](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/3627ae3e-d2c2-411f-8c36-60a09fa39837)
 
 
-## Dasar Teori
-<p align="justify">ESP-32 adalah mikrokontroler yang dikenalkan oleh Espressif System merupakan penerus dari mikrokontroler ESP8266. Pada mikrokontroler ini sudah
-tersedia modul WiFi dalam chip sehingga sangat mendukung untuk membuat sistem aplikasi Internet of Things. Perbedaan antara ESP32 dengan ESP8266
-adalah pada bagian prosesornya. ESP32 sudah Dual-Core 32 bit, jelas lebih cepat ESP32 secara kinerja. Selain itu modul ini juga mempunyai bluetooth, satu fitur
-yang tidak ada di ESP8266.</p>
+![1](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/cb71d022-a172-451e-8a3c-9e0e56b9522d)
+
+### b. Source Code
+Kode program : <a href="GPIO_1.2/GPIO_1.ino">di sini</a>
+
+### c. Hasil dan Pembahasan
+Dalam percobaan ini program dibuat untuk dapat menghasilkan LED yang dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali.
+
+##### LED Blink setiap 1 detik
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/e1504216-38c4-413e-8895-f4955d580d3d
+
+##### LED Blink setiap 2 detik
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/3740dfde-573a-4da9-be62-c5ed0762a3c1
+
+##### LED Blink setiap 3 detik
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/973fae63-ee32-4b4b-b5e0-c915944b9c01
+
+##### LED Blink setiap 100ms
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/925ad849-8336-4624-af3b-f215ea402a28
 
 
-**Sub-job** pada jobsheet ini, antara lain:
-1. GPIO
-2. PWM
-3. ADC dan DAC
-4. Regresi Linier
+## 2. GPIO | pushbutton1 - LED menyala saat push button ditekan
 
-## Alat dan Bahan
-**Alat dan bahan** yang digunakan dalam jobsheet ini, antara lain:
-1) ESP32
-2) Breadboard
-3) Kabel jumper
-4) Potensiometer 10k Ohm (1)
-5) Sensor Capacitive Soil Moisture
-6) LED (5) dan Push Button (3)
-7) Multimeter
-8) Resistor 330,1K, 10K Ohm (@ 3)
+### a. Rangkaian dan Flowchart
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![image](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/65dbb26b-6521-4052-b273-9f35197104a2)
+![2](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/187cfb03-9d90-46da-baf1-aec70dffe744)
 
 
-> [!NOTE]  
-> *Buka folder-folder subjob untuk melihat laporan percobaan*
+### b. Source Code
+Kode program : <a href="GPIO_1.3%20Tambahkan%201%20LED%20dan%201%20push%20button%20pada%rangkaian/GPIO_1.2.ino">klik di sini</a>
+
+### c. Hasil dan Pembahasan
+Dalam percobaan ini program dibuat untuk dapat mengendalikan led menggunakan push button, dimana saat push button ditekan maka LED akan menyala.
+
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/d44359e2-6291-465f-9ad6-0f40d3d46d68
+
+
+## 3. GPIO | pushbutton2 - LED blink saat push button ditekan
+
+### a. Rangkaian dan Flowchart
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![2](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/2554792d-22ef-40e7-85aa-cfee5868b7e8)
+
+![3](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/a272d524-1628-44df-ab67-8df81858010c)
+
+
+### b. Source Code
+Kode program :<a href="GPIO_1.3%20menyala%20kiri%kanan/GPIO_1.3.ino">klik di sini</a>
+
+### c. Hasil dan Pembahasan
+Dalam Percobaan ini, sebuah program dirancang untuk mengontrol LED dengan menggunakan push button, di mana LED akan mengalami siklus berkedip setiap 500 ms saat push button kedua ditekan.
+
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/7afb4696-8ed7-48c6-bd59-5239b1c74fe0
+
+
+## 4. GPIO | pushbutton3 - LED menyala dari kiri ke kanan berurutan saat pushbutton ditekan
+
+### a. Rangkaian dan Flowchart
+Rangkaian pada percobaan ini adalah sebagai berikut
+
+![3](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/82cf5654-c32a-495c-9f1e-cf05f9523a3b)
+![4](https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/e578ae80-43bc-4240-8e65-cbe8a204c1de)
+
+
+### b. Source Code
+Kode program :<a href="GPIO_1.3.2Menyala%20kiri%20kanan/Tambahkan_3_LED_dan_1_push_button_pada_rangkaian__kemudian_kemb.ino">klik di sini</a>
+
+### c. Hasil dan Pembahasan
+Percobaan ini merupakan sebuah program dirancang untuk mengontrol pencahayaan LED dengan menggunakan tombol tekan. Ketika tombol tekan ketiga ditekan, LED akan menyala secara berurutan dari kiri ke kanan, menciptakan efek running LED.
+
+https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/6b138bf8-ff4a-4944-9445-30061b339b36
