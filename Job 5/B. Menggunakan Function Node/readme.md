@@ -17,7 +17,7 @@ Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
 
-Percobaan B memperkenalkan penggunaan Function Node dalam Node-RED. Langkah awalnya adalah membuat flow dengan fungsi output tunggal, dimana node input1 dikonfigurasi untuk mengisi payload dengan "HelloWorld" dan topik "test1". Setelah itu, program dideploy dan hasilnya didokumentasikan. 
+<p align="justify">Percobaan B memperkenalkan penggunaan Function Node dalam Node-RED. Langkah awalnya adalah membuat flow dengan fungsi output tunggal, dimana node input1 dikonfigurasi untuk mengisi payload dengan "HelloWorld" dan topik "test1". Setelah itu, program dideploy dan hasilnya didokumentasikan. 
 
 ![1](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/2fb3ef26-174b-43fd-bec8-3d35db93a871)
 
@@ -39,7 +39,7 @@ Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
 
-Percobaan B Selanjutnya, dibuat flow dengan fungsi output berganda yang berfungsi memisahkan pesan. Node Input2 dikonfigurasi dengan payload "Expeliarmus" dan topik "test2". Program kembali di-deploy, dan hasilnya didokumentasikan.
+<p align="justify">Percobaan B Selanjutnya, dibuat flow dengan fungsi output berganda yang berfungsi memisahkan pesan. Node Input2 dikonfigurasi dengan payload "Expeliarmus" dan topik "test2". Program kembali di-deploy, dan hasilnya didokumentasikan.
 Dengan menggunakan kode JavaScript di dalam Function Node,  dapat melakukan berbagai operasi dan transformasi data sesuai kebutuhan aplikasi. Sintaks dan logika kode diperiksa untuk memastikan bahwa operasi yang diinginkan berhasil dilakukan.
 
 ![2](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/aa3878c1-2956-4868-ad36-a75dbc31256a)
