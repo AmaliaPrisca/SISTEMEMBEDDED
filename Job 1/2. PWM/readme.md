@@ -15,7 +15,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Dalam percobaan ini program dibuat untuk dapat menghasilkan sebuah LED yang dapat dikendalikan kecerahannya menggunakan modul PWM (Pulse Width Modulation).
+<p align="justify">Dalam percobaan ini program dibuat untuk dapat menghasilkan sebuah LED yang dapat dikendalikan kecerahannya menggunakan modul PWM (Pulse Width Modulation).
 
 https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/156f2346-530c-45a6-9c55-6cc4a77497bd
 
