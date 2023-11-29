@@ -13,7 +13,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program : <a href="GPIO_1.2/GPIO_1.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
-Dalam percobaan ini program dibuat untuk dapat menghasilkan LED yang dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali.
+<p align="justify">Dalam percobaan ini program dibuat untuk dapat menghasilkan LED yang dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali.
 
 ##### LED Blink setiap 1 detik
 https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/e1504216-38c4-413e-8895-f4955d580d3d
@@ -41,7 +41,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program : <a href="GPIO_1.3%20Tambahkan%201%20LED%20dan%201%20push%20button%20pada%rangkaian/GPIO_1.2.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Dalam percobaan ini program dibuat untuk dapat mengendalikan led menggunakan push button, dimana saat push button ditekan maka LED akan menyala.
+<p align="justify">Dalam percobaan ini program dibuat untuk dapat mengendalikan led menggunakan push button, dimana saat push button ditekan maka LED akan menyala.
 
 https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/d44359e2-6291-465f-9ad6-0f40d3d46d68
 
@@ -60,7 +60,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program :<a href="GPIO_1.3%20menyala%20kiri%kanan/GPIO_1.3.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Dalam Percobaan ini, sebuah program dirancang untuk mengontrol LED dengan menggunakan push button, di mana LED akan mengalami siklus berkedip setiap 500 ms saat push button kedua ditekan.
+<p align="justify">Dalam Percobaan ini, sebuah program dirancang untuk mengontrol LED dengan menggunakan push button, di mana LED akan mengalami siklus berkedip setiap 500 ms saat push button kedua ditekan.
 
 https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/7afb4696-8ed7-48c6-bd59-5239b1c74fe0
 
@@ -78,6 +78,6 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program :<a href="GPIO_1.3.2Menyala%20kiri%20kanan/Tambahkan_3_LED_dan_1_push_button_pada_rangkaian__kemudian_kemb.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Percobaan ini merupakan sebuah program dirancang untuk mengontrol pencahayaan LED dengan menggunakan tombol tekan. Ketika tombol tekan ketiga ditekan, LED akan menyala secara berurutan dari kiri ke kanan, menciptakan efek running LED.
+<p align="justify">Percobaan ini merupakan sebuah program dirancang untuk mengontrol pencahayaan LED dengan menggunakan tombol tekan. Ketika tombol tekan ketiga ditekan, LED akan menyala secara berurutan dari kiri ke kanan, menciptakan efek running LED.
 
 https://github.com/Muhmdwild/Sistem-Embeded/assets/150982519/6b138bf8-ff4a-4944-9445-30061b339b36
