@@ -9,7 +9,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program : <a href="GPIO_1.2/GPIO_1.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
-Pada praktikum 2, fokusnya adalah pada protokol komunikasi dan sensor. Protokol komunikasi mengatur aturan komunikasi antara entitas, sedangkan sensor mendeteksi sinyal fisik atau lingkungan. Pada percobaan A, ESP32 Capacitive Touch Sensor digunakan, menghasilkan output yang ditampilkan di serial monitor dan Serial Plotter. Saat sensor disentuh, nilai output menjadi 0, dan grafik pada Serial Plotter menurun. LED juga menyala saat sentuhan terdeteksi.
+<p align="justify">Pada praktikum 2, fokusnya adalah pada protokol komunikasi dan sensor. Protokol komunikasi mengatur aturan komunikasi antara entitas, sedangkan sensor mendeteksi sinyal fisik atau lingkungan. Pada percobaan A, ESP32 Capacitive Touch Sensor digunakan, menghasilkan output yang ditampilkan di serial monitor dan Serial Plotter. Saat sensor disentuh, nilai output menjadi 0, dan grafik pada Serial Plotter menurun. LED juga menyala saat sentuhan terdeteksi.
 
 
 ### d. Hasil Touch Sensor
@@ -28,7 +28,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program : <a href="GPIO_1.3%20Tambahkan%201%20LED%20dan%201%20push%20button%20pada%rangkaian/GPIO_1.2.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Dalam percobaan ini akan membuka komunikasi serial dan menampilkan pesan "ESP32 Touch Test". Dalam loop utama, nilai kapasitansi sensor sentuh pada pin T0 (GPIO 4) terus-menerus dibaca. Jika nilai kapasitansi kurang dari 20, menunjukkan adanya sentuhan, dan hal ini menyebabkan LED pada pin 16 menyala; jika tidak, maka LED akan dimatikan. Program akan terus membaca nilai sensor dan mengendalikan LED berdasarkan deteksi sentuhan yang terus-menerus dilakukan.
+<p align="justify">Dalam percobaan ini akan membuka komunikasi serial dan menampilkan pesan "ESP32 Touch Test". Dalam loop utama, nilai kapasitansi sensor sentuh pada pin T0 (GPIO 4) terus-menerus dibaca. Jika nilai kapasitansi kurang dari 20, menunjukkan adanya sentuhan, dan hal ini menyebabkan LED pada pin 16 menyala; jika tidak, maka LED akan dimatikan. Program akan terus membaca nilai sensor dan mengendalikan LED berdasarkan deteksi sentuhan yang terus-menerus dilakukan.
 
 ### d. Hasil Touch LED Menyala
 https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/82542dd6-39af-4bcc-9a12-c40b539fc93d
@@ -45,7 +45,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program :<a href="GPIO_1.3%20menyala%20kiri%kanan/GPIO_1.3.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Selanjutnya, dalam praktikum, jika sensor disentuh, LED akan menyala dengan efek berkedip. Program yang digunakan tetap serupa dengan sebelumnya, hanya ditambahkan perintah `digitalWrite(led, LOW); delay(500);`. Saat nilai kapasitansi kurang dari 20 (menandakan sentuhan terdeteksi), LED pada pin 16 akan berkedip dengan interval 500 ms menyala dan 500 ms mati. Ketika nilai kapasitansi lebih besar atau sama dengan 20 (tidak ada sentuhan terdeteksi), LED akan dimatikan.
+<p align="justify">Selanjutnya, dalam praktikum, jika sensor disentuh, LED akan menyala dengan efek berkedip. Program yang digunakan tetap serupa dengan sebelumnya, hanya ditambahkan perintah `digitalWrite(led, LOW); delay(500);`. Saat nilai kapasitansi kurang dari 20 (menandakan sentuhan terdeteksi), LED pada pin 16 akan berkedip dengan interval 500 ms menyala dan 500 ms mati. Ketika nilai kapasitansi lebih besar atau sama dengan 20 (tidak ada sentuhan terdeteksi), LED akan dimatikan.
 
 ### d. Hasil Touch LED Menyala Blink
 https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/971fdc3f-0878-4bbe-bd74-6cb9f2be95e8
@@ -64,7 +64,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program :<a href="GPIO_1.3.2Menyala%20kiri%20kanan/Tambahkan_3_LED_dan_1_push_button_pada_rangkaian__kemudian_kemb.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Pada praktikum berikutnya, saat LED menyala, nilai angka akan ditampilkan di Serial Monitor dan akan bertambah setiap kali sensor disentuh. Program ini mencakup kondisi jika nilai kapasitansi kurang dari 20, di mana LED pada pin 16 dinyalakan, nilai hitungan (hitung) ditambah 1, dan kondisi LED (kondisi led) diatur ke LED menyala. Jika tidak, LED dimatikan dan kondisi LED diatur ke LED mati. Nilai hitungan kemudian dicetak ke serial monitor.
+<p align="justify">Pada praktikum berikutnya, saat LED menyala, nilai angka akan ditampilkan di Serial Monitor dan akan bertambah setiap kali sensor disentuh. Program ini mencakup kondisi jika nilai kapasitansi kurang dari 20, di mana LED pada pin 16 dinyalakan, nilai hitungan (hitung) ditambah 1, dan kondisi LED (kondisi led) diatur ke LED menyala. Jika tidak, LED dimatikan dan kondisi LED diatur ke LED mati. Nilai hitungan kemudian dicetak ke serial monitor.
 
 ### d. Hasil Touch Bertambah
 https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/50aa40fc-5b75-49fd-98eb-781210555396
@@ -80,7 +80,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program :<a href="GPIO_1.3.2Menyala%20kiri%20kanan/Tambahkan_3_LED_dan_1_push_button_pada_rangkaian__kemudian_kemb.ino">klik di sini</a>
 
 ### c. Hasil dan Pembahasan
-Pada praktikum terakhir, dalam rangkaian terdapat 3 LED, dan saat sensor disentuh, LED akan menyala menjadi running LED yang bergerak dari kiri ke kanan, kemudian dari kanan ke kiri secara kontinyu. Program ini membuka komunikasi serial dan mencetak pesan "ESP32 Touch Test". Di dalam loop utama, nilai kapasitansi sensor sentuh pada pin T0 (GPIO 4) terus-menerus dibaca. Jika nilai kapasitansi kurang dari 20 (sentuhan terdeteksi), tiga LED (led, led2, led3) akan dinyalakan secara berurutan dengan interval 500 ms menyala dan 500 ms mati. Jika tidak ada sentuhan terdeteksi, semua LED akan dimatikan. Nilai hitungan kemudian dicetak ke serial monitor.
+<p align="justify">Pada praktikum terakhir, dalam rangkaian terdapat 3 LED, dan saat sensor disentuh, LED akan menyala menjadi running LED yang bergerak dari kiri ke kanan, kemudian dari kanan ke kiri secara kontinyu. Program ini membuka komunikasi serial dan mencetak pesan "ESP32 Touch Test". Di dalam loop utama, nilai kapasitansi sensor sentuh pada pin T0 (GPIO 4) terus-menerus dibaca. Jika nilai kapasitansi kurang dari 20 (sentuhan terdeteksi), tiga LED (led, led2, led3) akan dinyalakan secara berurutan dengan interval 500 ms menyala dan 500 ms mati. Jika tidak ada sentuhan terdeteksi, semua LED akan dimatikan. Nilai hitungan kemudian dicetak ke serial monitor.
 
 ### d. Hasil Touch LED Menyala Running
 https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/ca891a87-65d2-4008-acc4-7d1b7c7ab872
