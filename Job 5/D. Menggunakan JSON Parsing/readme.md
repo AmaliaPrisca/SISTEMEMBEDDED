@@ -10,10 +10,8 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 
-### b. Source Code
-Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
 
-### c. Hasil dan Pembahasan
+### b. Hasil dan Pembahasan
 <p align="justify">Percobaan D mencakup penggunaan JSON Parsing di Node-RED. Langkah awalnya adalah membuat flow dan mengatur konfigurasi pada Inject Node, JSON Parser Node, serta Function Node. Setelah itu, program di-deploy, dan hasilnya didokumentasikan dengan memasukkan data JSON melalui node pengirim data JSON atau menggunakan nilai simulasi dari Inject Node (jika digunakan). Nilai yang diambil dari objek JSON akan ditampilkan di Debug Node atau node output lainnya sesuai dengan konfigurasi yang telah diatur sebelumnya.
 
 ![1](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/33698fd8-7ff9-4bac-94ac-3ac7bd73d473)
