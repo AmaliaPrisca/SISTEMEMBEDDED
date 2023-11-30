@@ -7,7 +7,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 ### b. Source Code
-Kode program : <a href="GPIO_1.2/GPIO_1.ino">di sini</a>
+Kode program : <a href="https://github.com/AmaliaPrisca/SISTEMEMBEDDED/blob/master/Job%202/2.%20DHT/B.%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20%20BUS)/DHT_1/DHT_1.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 <p align="justify">Percobaan B, dilakukan akses terhadap Sensor DHT 11 (Single Wire / BUS) di mana jika suhu ruangan mencapai 30 derajat Celsius, ESP32 akan menyalakan LED Merah dan buzzer secara beep (blink). Jika suhu berada di bawah 30 derajat, ESP32 akan mematikan buzzer dan menyalakan LED dalam bentuk running LED, mirip dengan yang dilakukan pada Percobaan A. 
