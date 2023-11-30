@@ -5,16 +5,10 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 <br>
-
 ![5E](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/6c079143-8a17-4c4e-b8c0-ad73d79a78b2)
 
 
-
-
-### b. Source Code
-Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
-
-### c. Hasil dan Pembahasan
+### b. Hasil dan Pembahasan
 Sistem IoT menggunakan semua fungsi yang ada pada 
 Hands-On. Format data yang dikirim adalah multi-input dengan format 
 data String, Bolean, Number dan JSON (3 data). Setiap input mempunyai 
