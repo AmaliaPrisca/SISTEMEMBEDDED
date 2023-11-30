@@ -10,10 +10,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 
-### b. Source Code
-Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
-
-### c. Hasil dan Pembahasan
+### b. Hasil dan Pembahasan
 
 <p align="justify">Dalam percobaan A, langkah awal adalah memastikan bahwa perangkat komputer telah dipasang dengan Node-RED. Selanjutnya, menciptakan basic flow dengan double klik pada node input dan mengonfigurasinya sesuai dengan petunjuk pada jobsheet. Proses serupa dilakukan untuk node output/debug node. Setelah konfigurasi selesai, langkah selanjutnya adalah mengeksekusi program dengan menekan tombol "Deploy" di pojok kanan atas antarmuka pengguna. Output yang dihasilkan, berupa Inject Node yang memicu atau memulai flow, akan diproses di Function Node sesuai dengan kode yang telah ditulis. Hasil operasi tersebut kemudian akan ditampilkan di Debug Node.
 
