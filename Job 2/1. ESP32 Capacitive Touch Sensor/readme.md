@@ -6,7 +6,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![Screenshot 2023-11-28 140859](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/934aed65-6ff5-4b63-81f5-5e0b3716e280)
 
 ### b. Source Code
-Kode program : <a href="GPIO_1.2/GPIO_1.ino">di sini</a>
+Kode program : <a href="touch_sensor.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 <p align="justify">Pada praktikum 2, fokusnya adalah pada protokol komunikasi dan sensor. Protokol komunikasi mengatur aturan komunikasi antara entitas, sedangkan sensor mendeteksi sinyal fisik atau lingkungan. Pada percobaan A, ESP32 Capacitive Touch Sensor digunakan, menghasilkan output yang ditampilkan di serial monitor dan Serial Plotter. Saat sensor disentuh, nilai output menjadi 0, dan grafik pada Serial Plotter menurun. LED juga menyala saat sentuhan terdeteksi.
