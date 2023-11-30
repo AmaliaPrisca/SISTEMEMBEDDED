@@ -15,11 +15,11 @@ sesuai dengan kondisi lapangan untuk penerapan WSN dan IoT.
 
 
 **Sub-job** pada jobsheet ini, antara lain:
-A. ESP32 Wi-Fi Modes dan Wifi-Scan
-B. Menghubungkan ESP32 dengan Jaringan Wi-Fi
-C. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
-D. Mengganti Hostname ESP32
-E. Mengirim Data Sensor ke Database
+##### A. ESP32 Wi-Fi Modes dan Wifi-Scan
+##### B. Menghubungkan ESP32 dengan Jaringan Wi-Fi
+##### C. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
+##### D. Mengganti Hostname ESP32
+##### E. Mengirim Data Sensor ke Database
 
 ## Alat dan Bahan
 **Alat dan bahan** yang digunakan dalam jobsheet ini, antara lain:
