@@ -10,12 +10,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 
-
-
-### b. Source Code
-Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
-
-### c. Hasil dan Pembahasan
+### b. Hasil dan Pembahasan
 
 <p align="justify">Percobaan B memperkenalkan penggunaan Function Node dalam Node-RED. Langkah awalnya adalah membuat flow dengan fungsi output tunggal, dimana node input1 dikonfigurasi untuk mengisi payload dengan "HelloWorld" dan topik "test1". Setelah itu, program dideploy dan hasilnya didokumentasikan. 
 
@@ -33,11 +28,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 
 
 
-
-### b. Source Code
-Kode program : <a href="PWM/PWM_1/PWM_1.ino">klik di sini</a>
-
-### c. Hasil dan Pembahasan
+### b. Hasil dan Pembahasan
 
 <p align="justify">Percobaan B Selanjutnya, dibuat flow dengan fungsi output berganda yang berfungsi memisahkan pesan. Node Input2 dikonfigurasi dengan payload "Expeliarmus" dan topik "test2". Program kembali di-deploy, dan hasilnya didokumentasikan.
 Dengan menggunakan kode JavaScript di dalam Function Node,  dapat melakukan berbagai operasi dan transformasi data sesuai kebutuhan aplikasi. Sintaks dan logika kode diperiksa untuk memastikan bahwa operasi yang diinginkan berhasil dilakukan.
