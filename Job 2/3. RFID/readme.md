@@ -5,7 +5,7 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 ![Screenshot 2023-11-28 150701](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/3d1cba70-1a64-45ac-8bea-30f2455db8da)
 
 ### b. Source Code
-Kode program : <a href="GPIO_1.2/GPIO_1.ino">di sini</a>
+Kode program : <a href="https://github.com/AmaliaPrisca/SISTEMEMBEDDED/blob/master/Job%202/3.%20RFID/C.%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/RFID_1/RFID_1.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
 <p align="justify">pada Percobaan C, dilakukan akses terhadap Sensor RFID dengan menggunakan metode komunikasi SPI (Serial Peripheral Interface). Apabila Tag RFID yang telah terbaca sebelumnya digunakan untuk akses, berbagai tindakan akan dilakukan. Jika Tag RFID didekatkan pada Reader, LED Hijau akan menyala, servo motor akan bergerak ke arah kanan (kemudian kembali ke posisi semula setelah 3 detik), dan pesan "Akses Diterima, Silahkan Masuk" akan ditampilkan di Serial Monitor. Sebaliknya, jika Tag RFID tidak dikenali, LED Merah akan menyala, servo tidak akan bergerak, dan pesan "Akses Ditolak" akan muncul di Serial Monitor. Kemudian, menggunakan Tag RFID lain untuk melakukan percobaan yang sama.
