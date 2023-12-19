@@ -1,21 +1,11 @@
 # A. Koneksi MQTT Broker
 
-## 1. Konfigurasi pada Broker Node
-
-### a. Rangkaian dan Flowchart
+### 1. Rangkaian
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-![6A](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/11f85fec-4cc8-4827-a328-855951754954)
-<br>
+![1](https://github.com/AlfinIzza01/Sistem-Embedded/assets/94149476/33cb40f8-d5f7-4028-aca8-c88399477e97)
 
+### 2. Hasil dan Pembahasan
+Instal paket MQTT untuk Node-RED dengan perintah npm install node-red-contrib-mqtt. Buka Node-RED melalui browser dan tambahkan node MQTT ke alur. Konfigurasikan node MQTT dengan mengatur server MQTT, termasuk alamat broker, port, dan opsi lainnya. Tambahkan node pengirim dan penerima, sambungkan keduanya, dan konfigurasi topik yang ingin Anda gunakan. Deploy alur untuk menerapkan konfigurasi. Monitor pesan di tab "Debug" untuk memastikan tidak ada masalah. Uji koneksi dengan mengirim pesan dari node pengirim dan memastikan bahwa pesan diterima oleh node penerima. 
 
-
-### b. Source Code
-Kode program : <a href="ADC%20dan%20DAC/ADC%20dan%20DAC/ADC_1/ADC_1.ino">klik di sini</a>
-
-### c. Hasil dan Pembahasan
-Pada percobaan ni yaitu membuat flowchart pemrograman menggunakan Node-Red dan mengonfigurasi seperti pada jobsheet yang tertera  untuk mengoneksikan ke broker MQTT. 
-
-![2](https://github.com/AmaliaPrisca/SISTEMEMBEDDED/assets/145273945/b3d09ae4-380d-49d2-8391-e050be71d311)
-
-
+![2](https://github.com/AlfinIzza01/Sistem-Embedded/assets/94149476/5f73463e-5dde-40f0-bfbe-40178b8343e9)
